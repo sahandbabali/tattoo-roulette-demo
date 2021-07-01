@@ -1,0 +1,29 @@
+* {
+      font-family: "Love Ya Like A Sister";
+}
+
+#header  {
+      text-align: center;
+      margin-top: 2rem;
+}
+
+
+#header h1 {
+      font-weight: bold;
+}
+
+#skull {
+      width: 10rem;
+
+}
+
+#box {
+      border: 1px solid black;
+      text-align: center;
+   padding: 2rem;
+}
+
+.responsive {
+      width: 100%;
+      height: auto;
+    }
