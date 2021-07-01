@@ -11,8 +11,9 @@ window.addEventListener("shake", shakeEventDidOccur, false);
 
 //function to call when shake occurs
 function shakeEventDidOccur() {
+  const rndInt = Math.floor(Math.random() * 9) + 1;
   //put your own code here etc.
   document.getElementById(
     "box"
-  ).innerHTML = `<img class="responsive" src="./tats/1.png" alt="" />`;
+  ).innerHTML = `<img class="responsive" src="./tats/${rndInt}.png" alt="" />`;
 }
