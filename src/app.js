@@ -12,5 +12,7 @@ window.addEventListener("shake", shakeEventDidOccur, false);
 //function to call when shake occurs
 function shakeEventDidOccur() {
   //put your own code here etc.
-  alert("shake!");
+  document.getElementById(
+    "box"
+  ).innerHTML = `<img class="responsive" src="./tats/1.png" alt="" />`;
 }
